@@ -105,11 +105,3 @@ function initializeAuthenticatedApp(uid) {
 
   return app;
 }
-
-// const appCheck = initializeAppCheck(firebaseApp, {
-//   provider: new ReCaptchaV3Provider('6LeMolApAAAAAK3K_hUmsgomXmHSXgyXAnmucnjR'),
-
-//   // Optional argument. If true, the SDK automatically refreshes App Check
-//   // tokens as needed.
-//   isTokenAutoRefreshEnabled: true
-// });
